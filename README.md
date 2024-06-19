@@ -28,6 +28,7 @@ The Email Threat Detection Tool is a Python-based application designed to analyz
 3. **Configure environment variables**:
     - Create a .env file in the root of the project directory.
     - Add your email credentials and VirusTotal API key in the following format:
+      
         EMAIL_ADDRESS="your_email@example.com"
       
         EMAIL_PASSWORD="your_password"
