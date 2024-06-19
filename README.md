@@ -29,7 +29,9 @@ The Email Threat Detection Tool is a Python-based application designed to analyz
     - Create a .env file in the root of the project directory.
     - Add your email credentials and VirusTotal API key in the following format:
         EMAIL_ADDRESS="your_email@example.com"
+      
         EMAIL_PASSWORD="your_password"
+      
         VIRUSTOTAL_API_KEY="your_virustotal_api_key"
 
 ### Running the Application
