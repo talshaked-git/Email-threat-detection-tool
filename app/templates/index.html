@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Threat Detection</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Email Threat Detection Results</h1>
+    <table>
+        <tr>
+            <th>From</th>
+            <th>Subject</th>
+            <th>Threat Level</th>
+        </tr>
+        {% for email in emails %}
+        <tr>
+            <td>{{ email.from }}</td>
+            <td>{{ email.subject }}</td>
+            <td>{{ email.threat_level }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
